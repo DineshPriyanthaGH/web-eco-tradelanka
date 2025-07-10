@@ -48,7 +48,7 @@ export const Navigation = () => {
               </div>
             </div>
 
-            {/* CTA Button */}
+    
             <div className="hidden md:block">
               <Button 
                 onClick={() => setIsQuoteFormOpen(true)}
