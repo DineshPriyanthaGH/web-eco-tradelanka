@@ -21,7 +21,7 @@ export const Navigation = () => {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            {/* Logo */}
+          
             <div className="flex items-center space-x-2">
               <div className="bg-green-600 p-2 rounded-full">
                 <Leaf className="h-6 w-6 text-white" />
@@ -33,7 +33,7 @@ export const Navigation = () => {
               </span>
             </div>
 
-            {/* Desktop Navigation */}
+           
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
                 {navItems.map((item) => (
