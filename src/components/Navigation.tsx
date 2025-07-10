@@ -70,7 +70,7 @@ export const Navigation = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        
         {isOpen && (
           <div className="md:hidden bg-white border-b border-gray-100">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
