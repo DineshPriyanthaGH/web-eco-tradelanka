@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";    
+import { useState } from "react";    
 import { Menu, X, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuoteForm } from "./QuoteForm";
