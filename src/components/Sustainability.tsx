@@ -31,7 +31,7 @@ export const Sustainability = () => {
 
   return (
     <section id="sustainability" className="py-20 bg-gradient-to-br from-green-800 to-green-600 text-white overflow-hidden relative">
-      {/* Background Pattern */}
+      
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10">
           <TreePine className="h-32 w-32 transform rotate-12" />
