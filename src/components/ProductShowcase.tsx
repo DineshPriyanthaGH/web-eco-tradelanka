@@ -13,14 +13,14 @@ export const ProductShowcase = () => {
       id: 1,
       name: "Coconut Shell Utensils",
       description: "Handcrafted bowls, spoons, and trays made from natural coconut shells.",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop",
+      image: "https://i.etsystatic.com/26320561/r/il/7f58ff/2908823073/il_fullxfull.2908823073_5xdd.jpg?w=400&h=300&fit=crop",
       features: ["100% Natural", "Biodegradable", "Handcrafted"]
     },
     {
       id: 2,
       name: "Areca Leaf Plates",
       description: "Biodegradable, sturdy, and stylish plates perfect for conscious dining.",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop",
+      image: "https://cocohitech.com/wp-content/uploads/2020/04/Areca-Leaf-Plates-2.jpg?w=400&h=300&fit=crop",
       features: ["Biodegradable", "Chemical-Free", "Various Sizes"]
     },
     {

@@ -12,25 +12,25 @@ import Autoplay from "embla-carousel-autoplay";
 
 const heroSlides = [
   {
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=1920&q=80",
+    image: "https://img.freepik.com/premium-photo/photo-fresh-coconut-with-white-background_763111-17761.jpg?auto=format&fit=crop&w=1920&q=80",
     title: "Premium Coconut Products",
     subtitle: "From shell to oil - sustainable coconut solutions",
     description: "Handcrafted coconut shell bowls, utensils, and eco-friendly kitchenware exported globally"
   },
   {
-    image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1920&q=80",
+    image: "https://img.freepik.com/premium-photo/fresh-half-break-coconuts-around-stone_718046-3158.jpg?auto=format&fit=crop&w=1920&q=80",
     title: "Sustainable Export Excellence",
     subtitle: "Connecting Sri Lanka to the world",
     description: "Leading the way in eco-friendly exports with quality products and ethical sourcing"
   },
   {
-    image: "https://images.unsplash.com/photo-1592595896616-c37162298647?auto=format&fit=crop&w=1920&q=80",
+    image: "https://www.dti.gov.ph/wp-content/uploads/coconut-export-coconut-oil-1024x680.jpg?auto=format&fit=crop&w=1920&q=80",
     title: "Traditional Craftsmanship",
     subtitle: "Preserving heritage through export",
     description: "Supporting local artisans while delivering authentic Sri Lankan products worldwide"
   },
   {
-    image: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?auto=format&fit=crop&w=1920&q=80",
+    image: "https://i.ytimg.com/vi/a-DBXqs5_Vo/maxresdefault.jpg?auto=format&fit=crop&w=1920&q=80",
     title: "Global Reach, Local Impact",
     subtitle: "Serving 30+ countries worldwide",
     description: "Building bridges between Sri Lankan producers and international markets"

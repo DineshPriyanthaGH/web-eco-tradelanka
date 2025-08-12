@@ -27,9 +27,9 @@ export const Navigation = () => {
                 <Leaf className="h-6 w-6 text-white" />
               </div>
               <span className="text-2xl font-bold text-green-700">
-                Eco <span className="text-2xl font-bold text-black">
-               Trade
-              </span>Lanka
+                EcoGreen <span className="text-2xl font-bold text-black">
+               Global
+              </span>
               </span>
             </div>
 

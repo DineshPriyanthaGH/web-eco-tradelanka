@@ -13,8 +13,8 @@ export const Footer = () => {
                 <Leaf className="h-6 w-6 text-white" />
               </div>
               <span className="text-2xl font-bold">
-                <span className="text-brown-400">Eco</span>
-                <span className="text-green-400"> TradeLanka</span>
+                <span className="text-brown-400">EcoGreen</span>
+                <span className="text-green-400"> Global Pvt Ltd</span>
               </span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -55,13 +55,13 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-brown-400" />
-                <span className="text-gray-300">info@ecotradelanka.lk</span>
+                <span className="text-gray-300">info@ecogreenglobal.lk</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-brown-400 mt-1" />
                 <span className="text-gray-300">
-                  123 Export Avenue,<br />
-                  Colombo 03, Sri Lanka
+                  188/B Mahawewa<br />
+                  Chilaw, Sri Lanka
                 </span>
               </div>
             </div>
