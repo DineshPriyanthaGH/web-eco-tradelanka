@@ -1,5 +1,4 @@
-
-import { Leaf, Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -9,8 +8,13 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="bg-green-600 p-2 rounded-full">
-                <Leaf className="h-6 w-6 text-white" />
+              <div className=" p-2 rounded-full">
+                {/* Replace Leaf icon with logo */}
+                <img 
+                  src="https://scontent.fcmb10-1.fna.fbcdn.net/v/t39.30808-6/472142611_122146234724383123_4395380209239405586_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEEgJoOu0jH7EG0j-KSC2UztUPkvlJyok-1Q-S-UnKiT9mgK8fDQghpqMS1vXDTLKlwxzKaKEvzcq8f1obaiSaq&_nc_ohc=PYpq2cy4qRQQ7kNvwHxNPRP&_nc_oc=Adm5gicHmN9_viWavztPdlPi3emKCGhVlgibnB5FfFEIyGZF8aB--gegnj4NeDVqxFA&_nc_zt=23&_nc_ht=scontent.fcmb10-1.fna&_nc_gid=iFblhw71yhVBhVB8LM5d-A&oh=00_AfXpoQDpV0taBO2ZYXBSKpb22vCn_A1OGOXDMW-K7qQl7A&oe=68A1690A"
+                  alt="EcoGreen Global Logo"
+                  className="h-20 w-20 object-cover rounded-full" // Adjust the size here
+                />
               </div>
               <span className="text-2xl font-bold">
                 <span className="text-brown-400">EcoGreen</span>
@@ -51,7 +55,7 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-brown-400" />
-                <span className="text-gray-300">+94 11 234 5678</span>
+                <span className="text-gray-300">0725604666</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-brown-400" />
@@ -84,7 +88,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 <span className="text-brown-400">Eco</span><span className="text-green-400"> TradeLanka</span>. All rights reserved. | Proudly Sri Lankan
+            © 2025 <span className="text-brown-400">EcoGreen</span><span className="text-green-400"> Global Pvt Ltd</span>. All rights reserved. | Proudly Sri Lankan
           </p>
         </div>
       </div>

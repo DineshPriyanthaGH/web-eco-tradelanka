@@ -1,4 +1,3 @@
-
 import { ChevronRight, Leaf, Globe, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
@@ -56,12 +55,7 @@ export const Hero = () => {
         {/* Auto-sliding Carousel Background */}
         <Carousel
           className="absolute inset-0 w-full h-full"
-          plugins={[
-            Autoplay({
-              delay: 5000,
-              stopOnInteraction: false,
-            }),
-          ]}
+          plugins={[Autoplay({ delay: 5000, stopOnInteraction: false })]}
           opts={{
             align: "start",
             loop: true,
@@ -103,10 +97,8 @@ export const Hero = () => {
             
             {/* Left Side - Sliding Text Content and Static Branding */}
             <div className="animate-fade-in">
-              {/* Static Branding Content */}
-             
-
               {/* Dynamic Text Content */}
+              <br/><br/><br/>
               <div className="mb-8 h-64 flex flex-col justify-center relative">
                 {heroSlides.map((slide, index) => (
                   <div
@@ -117,10 +109,10 @@ export const Hero = () => {
                         : 'opacity-0 translate-y-8'
                     }`}
                   >
-                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">
+                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
                       {slide.title}
                     </h1>
-                    <p className="text-xl md:text-2xl text-green-200 mb-4">
+                    <p className="text-xl sm:text-2xl text-green-200 mb-4">
                       {slide.subtitle}
                     </p>
                     <p className="text-lg text-white/90 max-w-2xl">
@@ -146,64 +138,59 @@ export const Hero = () => {
             </div>
 
             {/* Right Side - Stats Cards */}
-               <div className="flex justify-end min-h-screen items-center">
-            
-            {/* Right Side - All Content */}
-            <div className="max-w-2xl w-full animate-fade-in">
-              {/* Static Branding Content */}
-              <div className="mb-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                  Sri Lanka's Premier
-                  <span className="block text-green-400">
-                    Eco Product Exporter
-                  </span>
-                </h2>
-                
-                <p className="text-xl text-white/90 mb-8 max-w-2xl leading-relaxed">
-                  Sustainably Sourced. Globally Delivered. Inspired by Nature.
-                </p>
+            <div className="flex justify-end min-h-screen items-center">
+              <div className="max-w-2xl w-full animate-fade-in">
+                {/* Branding Content */}
+                <div className="mb-8">
+                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+                    Sri Lanka's Premier
+                    <span className="block text-green-400">
+                      Eco Product Exporter
+                    </span>
+                  </h2>
 
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                  <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg group">
-                    Browse Products
-                    <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
-                    onClick={() => setIsQuoteFormOpen(true)}
-                    className="border-green-400 text-green-400 hover:bg-green-400 hover:text-white px-8 py-3 text-lg backdrop-blur-sm bg-white/10"
-                  >
-                    Get Quote
-                  </Button>
+                  <p className="text-xl sm:text-2xl text-white/90 mb-8 max-w-2xl leading-relaxed">
+                    Sustainably Sourced. Globally Delivered. Inspired by Nature.
+                  </p>
+
+                  {/* CTA Buttons */}
+                  <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                    <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg group">
+                      Browse Products
+                      <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                    <br/>
+                    <Button 
+                      size="lg" 
+                      variant="outline" 
+                      onClick={() => setIsQuoteFormOpen(true)}
+                      className="border-green-600 text-green-600 hover:bg-green-400 hover:text-white px-8 py-3 text-lg backdrop-blur-sm bg-white/10"
+                    >
+                      Get Quote
+                    </Button>
+                  </div>
                 </div>
-              </div>
 
-              
-
-              
-
-              {/* Stats Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-white/20 text-center">
-                  <Globe className="h-12 w-12 text-green-400 mx-auto mb-4" />
-                  <div className="text-3xl font-bold text-white mb-2">30+</div>
-                  <div className="text-green-100 text-sm">Countries Served</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-white/20 text-center">
-                  <Award className="h-12 w-12 text-green-400 mx-auto mb-4" />
-                  <div className="text-3xl font-bold text-white mb-2">15+</div>
-                  <div className="text-green-100 text-sm">Years Experience</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-white/20 text-center">
-                  <Leaf className="h-12 w-12 text-green-400 mx-auto mb-4" />
-                  <div className="text-3xl font-bold text-white mb-2">100%</div>
-                  <div className="text-green-100 text-sm">Eco-Friendly</div>
+                {/* Stats Cards */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-white/20 text-center">
+                    <Globe className="h-12 w-12 text-green-400 mx-auto mb-4" />
+                    <div className="text-3xl font-bold text-black mb-2">30+</div>
+                    <div className="text-green-400 text-sm">Countries Served</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-white/20 text-center">
+                    <Award className="h-12 w-12 text-green-400 mx-auto mb-4" />
+                    <div className="text-3xl font-bold text-black mb-2">15+</div>
+                    <div className="text-green-400 text-sm">Years Experience</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-white/20 text-center">
+                    <Leaf className="h-12 w-12 text-green-400 mx-auto mb-4" />
+                    <div className="text-3xl font-bold text-black mb-2">100%</div>
+                    <div className="text-green-400 text-sm">Eco-Friendly</div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </section>
