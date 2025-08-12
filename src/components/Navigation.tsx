@@ -23,15 +23,17 @@ export const Navigation = () => {
           <div className="flex justify-between items-center h-16">
           
             <div className="flex items-center space-x-2">
-              <div className="bg-green-600 p-2 rounded-full">
-                <Leaf className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold text-green-700">
-                EcoGreen <span className="text-2xl font-bold text-black">
-               Global
-              </span>
-              </span>
-            </div>
+  <div className=" p-2 rounded-full">
+    <img 
+      src="https://scontent.fcmb10-1.fna.fbcdn.net/v/t39.30808-6/472142611_122146234724383123_4395380209239405586_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEEgJoOu0jH7EG0j-KSC2UztUPkvlJyok-1Q-S-UnKiT9mgK8fDQghpqMS1vXDTLKlwxzKaKEvzcq8f1obaiSaq&_nc_ohc=PYpq2cy4qRQQ7kNvwHxNPRP&_nc_oc=Adm5gicHmN9_viWavztPdlPi3emKCGhVlgibnB5FfFEIyGZF8aB--gegnj4NeDVqxFA&_nc_zt=23&_nc_ht=scontent.fcmb10-1.fna&_nc_gid=iFblhw71yhVBhVB8LM5d-A&oh=00_AfXpoQDpV0taBO2ZYXBSKpb22vCn_A1OGOXDMW-K7qQl7A&oe=68A1690A" 
+      alt="EcoGreen Global" 
+      className="h-1520 w-10 object-cover rounded-full"
+    />
+  </div>
+  <span className="text-2xl font-bold text-green-700">
+    EcoGreen <span className="text-2xl font-bold text-black">Global</span>
+  </span>
+</div>
 
            
             <div className="hidden md:block">

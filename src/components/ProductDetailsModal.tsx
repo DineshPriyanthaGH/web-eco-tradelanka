@@ -61,82 +61,82 @@ export const ProductDetailsModal = ({ isOpen, onClose, product }: ProductDetails
         ],
         applications: ["Fine Dining", "Weddings", "Corporate Events", "Street Food", "Takeaway"]
       },
-      "Wooden Homeware": {
-        fullDescription: "Crafted from sustainably sourced hardwood, our wooden homeware collection represents the finest Sri Lankan woodworking traditions. Each piece is carefully selected, seasoned, and finished to create beautiful, functional items that last for generations.",
-        certifications: ["FSC Certified", "Food Safe Finish", "Handmade Guarantee", "Sustainable Wood"],
-        specifications: {
-          "Wood Types": "Teak, Mahogany, Jak Wood",
-          "Finish": "Natural food-safe oil",
-          "Sizes": "Various sizes available",
-          "Care": "Hand wash only",
-          "Origin": "Sustainably sourced Sri Lankan forests"
-        },
-        benefits: [
-          "Natural antibacterial properties",
-          "Durable and long-lasting",
-          "Unique wood grain patterns",
-          "Improves with age",
-          "Carbon neutral production"
-        ],
-        applications: ["Kitchen Use", "Serving", "Gifts", "Home Decor", "Restaurant Service"]
-      },
-      "Kithul Syrup": {
-        fullDescription: "Pure Kithul syrup is extracted from the sap of the Caryota urens palm tree, native to Sri Lanka. This golden nectar is rich in minerals and has been used for centuries as a natural sweetener. Our syrup is processed using traditional methods without any artificial additives.",
-        certifications: ["Organic Certified", "HACCP", "ISO 22000", "Non-GMO"],
-        specifications: {
-          "Source": "Caryota urens palm sap",
-          "Processing": "Traditional boiling method",
-          "Color": "Golden amber",
-          "Consistency": "Medium viscosity",
-          "Shelf Life": "2 years"
-        },
-        benefits: [
-          "Rich in potassium and iron",
-          "Lower glycemic index than sugar",
-          "Natural antioxidants",
-          "Distinctive caramel-like flavor",
-          "Supports local communities"
-        ],
-        applications: ["Baking", "Desserts", "Beverages", "Health Foods", "Traditional Medicine"]
-      },
-      "Eco Bags & Handicrafts": {
-        fullDescription: "Our eco-friendly bags and handicrafts are woven by skilled artisans using natural fibers like water hyacinth, banana fiber, and recycled materials. Each piece tells a story of Sri Lankan craftsmanship and environmental consciousness.",
-        certifications: ["Fair Trade", "Handmade Certified", "Eco-Friendly", "Artisan Made"],
-        specifications: {
-          "Materials": "Water hyacinth, banana fiber, jute",
-          "Sizes": "Small to extra large",
-          "Colors": "Natural and dyed options",
-          "Durability": "5+ years regular use",
-          "Closure": "Various options available"
-        },
-        benefits: [
-          "Supports rural communities",
-          "Biodegradable materials",
-          "Unique handwoven patterns",
-          "Strong and durable",
-          "Plastic-free alternative"
-        ],
-        applications: ["Shopping", "Storage", "Gifts", "Fashion", "Corporate Merchandise"]
-      },
-      "Herbal Teas & Spices": {
-        fullDescription: "Our premium collection of Ceylon herbal teas and authentic Sri Lankan spices captures the essence of the island's rich biodiversity. Grown in the pristine highlands and processed using traditional methods, each product delivers exceptional flavor and therapeutic benefits.",
-        certifications: ["Ceylon Tea Board Certified", "Organic", "GMP Certified", "Export Quality"],
-        specifications: {
-          "Origin": "Sri Lankan highlands",
-          "Processing": "Traditional methods",
-          "Packaging": "Airtight sealed pouches",
-          "Grades": "PEKOE, OP, BOP available",
-          "Shelf Life": "3 years"
-        },
-        benefits: [
-          "High antioxidant content",
-          "Natural therapeutic properties",
-          "Authentic Ceylon flavor",
-          "Sustainably harvested",
-          "Premium export quality"
-        ],
-        applications: ["Wellness", "Culinary", "Export", "Retail", "Food Service"]
-      }
+      "Dry Coconut": {
+  fullDescription: "Our dry coconut is harvested from mature coconuts, carefully dried to retain its natural sweetness and nutrients. It's perfect for cooking, baking, and as a healthy snack. Enjoy the rich flavor and texture of Sri Lanka's finest dry coconut.",
+  certifications: ["Organic Certified", "Non-GMO", "Sustainably Sourced"],
+  specifications: {
+    "Type": "Matured Coconut",
+    "Drying Process": "Sun-Dried",
+    "Sizes": "Available in various sizes",
+    "Storage": "Store in a cool, dry place",
+    "Origin": "Sustainably sourced from Sri Lanka"
+  },
+  benefits: [
+    "Rich in fiber and essential nutrients",
+    "Supports heart health",
+    "Boosts energy levels",
+    "Naturally sweet and delicious",
+    "Versatile for various recipes"
+  ],
+  applications: ["Cooking", "Baking", "Smoothies", "Snacking", "Vegan Recipes"]
+},
+      "Coconut Husk": {
+  fullDescription: "Coconut husks are a by-product of coconut processing and are widely used in eco-friendly products such as biodegradable brushes, doormats, and crafts. These husks are durable, versatile, and an excellent natural alternative for sustainable products.",
+  certifications: ["Organic Certified", "Fair Trade", "Sustainable Sourcing"],
+  specifications: {
+    "Source": "Coconut palm",
+    "Processing": "Hand-harvested and sun-dried",
+    "Sizes": "Various sizes available",
+    "Storage": "Store in a dry, cool place",
+    "Origin": "Sri Lanka"
+  },
+  benefits: [
+    "Biodegradable and compostable",
+    "Supports eco-friendly initiatives",
+    "Durable and long-lasting",
+    "Perfect for crafts and decoration",
+    "Natural fiber with multiple uses"
+  ],
+  applications: ["Crafts", "Eco-Friendly Products", "Doormats", "Brushes", "Gardening"]
+},
+      
+      "Husked Coconuts": {
+  fullDescription: "Husked coconuts are mature coconuts with the outer fibrous husk removed, leaving the hard shell that encases the coconut water and edible white flesh. These coconuts are ideal for both culinary uses and industrial applications due to their durability and ease of handling.",
+  certifications: ["Organic Certified", "Fair Trade", "Sustainable Sourcing"],
+  specifications: {
+    "Type": "Matured Coconut",
+    "Processing": "Outer husk removed, shell intact",
+    "Weight": "Approximately 1.4 kg per coconut",
+    "Storage": "Store in a cool, dry place",
+    "Origin": "Sri Lanka"
+  },
+  benefits: [
+    "Long shelf life compared to whole coconuts",
+    "Easier to handle and process",
+    "Suitable for both food and industrial uses",
+    "Natural and eco-friendly packaging material"
+  ],
+  applications: ["Culinary Uses", "Coconut Water Extraction", "Copra Production", "Coir Fiber Extraction", "Crafts and Decorations"]
+},
+"Fresh Coconut": {
+  fullDescription: "Fresh coconuts are mature coconuts with the outer husk intact, containing natural coconut water and fresh coconut meat. They are ideal for hydration, cooking, and snacking, offering a pure and refreshing tropical experience.",
+  certifications: ["Organic Certified", "Fair Trade", "Sustainably Sourced"],
+  specifications: {
+    "Type": "Matured Coconut",
+    "Processing": "Outer husk intact, shell and meat preserved",
+    "Weight": "Approximately 1.4 kg per coconut",
+    "Storage": "Store in a cool, dry place",
+    "Origin": "Sri Lanka"
+  },
+  benefits: [
+    "Rich in electrolytes and nutrients",
+    "Supports hydration and digestion",
+    "Versatile for various culinary applications",
+    "Natural and eco-friendly packaging material"
+  ],
+  applications: ["Coconut Water", "Coconut Milk", "Smoothies", "Baking", "Snacking"]
+}
+
     };
 
     return details[productName] || details["Coconut Shell Utensils"];

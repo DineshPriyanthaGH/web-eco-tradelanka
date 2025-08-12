@@ -63,7 +63,7 @@ export const AboutPreview = () => {
             <div className="order-1 lg:order-2 relative">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=600&h=400&fit=crop"
+                  src="https://tse1.mm.bing.net/th/id/OIP.LAKWhgW78edwV6DlLdKKXwHaE3?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3?w=600&h=400&fit=crop"
                   alt="Sri Lankan landscape"
                   className="rounded-2xl shadow-2xl w-full"
                 />

@@ -24,33 +24,36 @@ export const ProductShowcase = () => {
       features: ["Biodegradable", "Chemical-Free", "Various Sizes"]
     },
     {
-      id: 3,
-      name: "Wooden Homeware",
-      description: "Beautiful wooden bowls, mugs, and platters crafted by local artisans.",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop",
-      features: ["Sustainable Wood", "Handmade", "Food Safe"]
-    },
+  id: 4,
+  name: "Dry Coconut",
+  description: "Dried coconut, perfect for cooking, baking, and snacking.",
+  image: "https://img2.exportersindia.com/product_images/bc-full/2025/8/14874244/dried-coconut-1754541320-8252484.jpeg",
+  features: ["High in Fiber", "Rich in Healthy Fats", "Naturally Sweet"]
+},
     {
-      id: 4,
-      name: "Kithul Syrup",
-      description: "Pure, natural sweetener from the Kithul palm, rich in minerals.",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop",
-      features: ["Pure Natural", "Rich in Minerals", "Traditional Process"]
-    },
-    {
-      id: 5,
-      name: "Eco Bags & Handicrafts",
-      description: "Handwoven bags, baskets, and mats made from natural fibers.",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop",
-      features: ["Handwoven", "Durable", "Eco-Friendly"]
-    },
-    {
-      id: 6,
-      name: "Herbal Teas & Spices",
-      description: "Premium Ceylon tea blends and authentic Sri Lankan spices.",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop",
-      features: ["Ceylon Quality", "Organic", "Traditional Blends"]
-    }
+  id: 5,
+  name: "Coconut Husk",
+  description: "Natural coconut husks, ideal for eco-friendly products and crafting.",
+  image: "https://i.etsystatic.com/24552157/r/il/df5847/2907100485/il_1588xN.2907100485_2o3g.jpg",
+  features: ["Eco-Friendly", "Natural Material", "Sustainable"]
+},
+
+   {
+  id: 6,
+  name: "Husked Coconuts",
+  description: "Mature coconuts with the outer husk removed, ready for culinary and industrial use.",
+  image: "https://th.bing.com/th/id/R.6057e00271fc5316cac5539b275708ce?rik=zSumOLTKwjDhPg&riu=http%3a%2f%2fspecialtyproduce.com%2fsppics%2f943.png&ehk=4ojyVsglsIIUwSX%2bwCXv70STdBluQTS%2fs9nQ7IGvqxg%3d&risl=&pid=ImgRaw&r=0",
+  features: ["Matured Fruit", "Shell Removed", "Versatile Applications"]
+}
+,
+  {
+  id: 7,
+  name: "Fresh Coconut",
+  description: "Whole, mature coconuts with the outer husk intact, offering natural coconut water and fresh coconut meat.",
+  image: "https://www.tastingtable.com/img/gallery/which-country-produces-the-most-coconuts/l-intro-1661971699.jpg",
+  features: ["Natural Coconut Water", "Fresh Coconut Meat", "Versatile Culinary Use"]
+}
+
   ];
 
   const handleViewDetails = (product: any) => {

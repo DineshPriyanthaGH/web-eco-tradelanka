@@ -146,7 +146,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Phone</div>
-                    <div className="text-gray-600">+94 11 234 5678</div>
+                    <div className="text-gray-600">0725604666</div>
                   </div>
                 </div>
 
@@ -156,7 +156,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">WhatsApp</div>
-                    <div className="text-gray-600">+94 77 123 4567</div>
+                    <div className="text-gray-600">0725604666</div>
                   </div>
                 </div>
 
@@ -166,7 +166,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Email</div>
-                    <div className="text-gray-600">info@ecotradelanka.lk</div>
+                    <div className="text-gray-600">info@ecogreenlankaglobal.lk</div>
                   </div>
                 </div>
 
@@ -177,8 +177,7 @@ export const ContactSection = () => {
                   <div>
                     <div className="font-semibold text-gray-900">Address</div>
                     <div className="text-gray-600">
-                      123 Export Avenue,<br />
-                      Colombo 03, Sri Lanka
+                      188/B,Mahawewa,chilaw
                     </div>
                   </div>
                 </div>

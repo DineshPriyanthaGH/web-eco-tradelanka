@@ -95,7 +95,7 @@ export const Sustainability = () => {
             
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=500&h=400&fit=crop"
+                src="https://trgrestaurantconsulting.com/wp-content/uploads/2020/02/Restaurant-Sustainability.jpg"
                 alt="Sri Lankan farmers"
                 className="rounded-2xl shadow-2xl"
               />
